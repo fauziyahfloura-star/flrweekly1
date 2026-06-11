@@ -20,7 +20,7 @@ nav a {
     color: #9692a9; 
     padding: 10px 20px;
     border: 1px solid #a9a9a9;
-    background-color: #fcfce0; /
+    background-color: #fcfce0; 
     display: inline-block;
     margin-left: -1px; 
 }
@@ -36,9 +36,18 @@ nav a.active {
 }
 
 table {
-    border-collapse: collapse;
+    width: 70%;
     margin: 15px auto;
+    border-collapse: collapse;
     background-color: white;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 table th {
@@ -47,10 +56,10 @@ table th {
 
 
 img {
+    width: 50px;
+    height: 50px;
     display: block;
     margin: 10px auto;
-    width: 200px;
-    height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
