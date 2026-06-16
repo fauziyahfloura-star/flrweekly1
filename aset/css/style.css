@@ -12,17 +12,17 @@ h1, h2 {
 nav {
     display: flex;
     justify-content: center;
-    margin: 0; 
+    margin: 0;
 }
 
 nav a {
     text-decoration: none;
-    color: #9692a9; 
+    color: #9692a9;
     padding: 10px 20px;
     border: 1px solid #a9a9a9;
-    background-color: #fcfce0; 
+    background-color: #fcfce0;
     display: inline-block;
-    margin-left: -1px; 
+    margin-left: -1px;
 }
 
 nav a:hover {
@@ -40,12 +40,12 @@ table {
     margin: 15px auto;
     border-collapse: collapse;
     background-color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 th, td {
     border: 1px solid #999;
-    padding: 8px;
+    padding: 6px;
     text-align: center;
     vertical-align: middle;
 }
@@ -54,16 +54,23 @@ table th {
     background-color: #ddd;
 }
 
-
-img {
-    width: 50px;
-    height: 50px;
+.profil-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+table img {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
 }
-
 
 button {
     padding: 6px 10px;
@@ -76,7 +83,6 @@ button:hover {
     background-color: #bbb;
 }
 
-
 form {
     width: 25%;
     margin: 20px auto;
@@ -84,13 +90,12 @@ form {
     background-color: #ddd;
 }
 
-
-input, [type="file"] {
+input,
+[type="file"] {
     padding: 5px;
     width: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-
 
 p {
     text-align: center;
