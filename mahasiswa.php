@@ -8,7 +8,7 @@
 
     /// mysqli_fetch_row array numeric
     /// mysqli_fetch_assoc array associative
-    /// mysqli_fetch_array array numeric/associative
+    /// mysqli_fetch_array array numeric/associative                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     /// mysqli_fetch_object
 
 
