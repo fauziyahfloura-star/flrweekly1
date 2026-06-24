@@ -11,6 +11,21 @@ h1, h2{
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    color: #5f5af0;
+}
+
+.form-mahasiswa {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
@@ -36,18 +51,6 @@ h1, h2{
     font-weight: 600;
     border: 1px solid #ffffff;
     transition: 0.3s;
-}
-
-.navbar a:first-child{
-    border-radius: 15px 0 0 15px;
-}
-
-.navbar a:last-child{
-    border-radius: 0 15px 15px 0;
-}
-
-.navbar a:hover{
-    background: #5145cd;
 }
 
 .navbar{
@@ -95,21 +98,6 @@ h1, h2{
     text-decoration: none;
 }
 
-.btn-edit:hover{
-    background: #2980b9;
-}
-
-.btn-hapus{
-    background: #e74c3c;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
-.btn-hapus:hover{
-    background: #c0392b;
-}
 
 table{
     width: 75%;
@@ -122,34 +110,11 @@ table{
     box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
 }
 
-th{
-    background: #ffffff;
-    color: #333;
-    padding: 15px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-td{
-    padding: 20px 15px;
-    text-align: center;
-    font-size: 14px;
-}
-
-tr:nth-child(even){
-    background: #fafafa;
-}
-
 table img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-}
-
-table{
-    background: rgba(255,255,255,0.9);
-    border-radius: 25px;
 }
 
 table img{
@@ -169,16 +134,5 @@ table img{
     margin: auto;
     border-radius: 15px;
     overflow: hidden;
-}
-
-.section-latihan th{
-    background: #ff9f43;
-    color: white;
-}
-
-.section-latihan td{
-    color: #555;
-    font-size: 14px;
-    background: #fffaf2;
 }
 

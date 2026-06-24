@@ -55,7 +55,7 @@
     
     ?>
     <tr>
-        <td>1</td>
+        <td><?php echo $mhs['id']; ?></td>
         <td><?php echo $mhs['nama']; ?></td>
         <td><?php echo $mhs['nim']; ?></td>
         <td><?php echo $mhs['prodi']; ?></td>

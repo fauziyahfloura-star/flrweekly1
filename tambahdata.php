@@ -20,7 +20,7 @@
 </table>
 <h2>Form Data Mahasiswa</h2>
 
-<form>
+<form class="form-mahasiswa">
     Nama:<br>
     <input type="text" name="nama"><br><br>
     Nim:<br>
