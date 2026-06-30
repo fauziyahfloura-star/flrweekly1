@@ -3,7 +3,7 @@
         <title>
      PROFIL WEB TI FLOURA-2026
            </title>
-    <link rel="stylesheet" href="aset/css/style.css">
+    <link rel="stylesheet" href="aset/css/style.css?v=2">
     </head>
     <body>
     <h1 align = "center" >

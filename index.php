@@ -3,7 +3,7 @@
     <title>
      WEB TI FLOURA-2026
            </title>
-      <link rel="stylesheet" href="aset/css/style.css">
+      <link rel="stylesheet" href="aset/css/style.css?v=2">
     </head>
   <body>
   <h1 align = "center" >
@@ -22,7 +22,6 @@
 <center>
   <img src = "aset/image.jpeg" width = "200px"
   alt = "image" />
-</center>
 <br><br>
   <p>
     Nama : Floura Fauziyah Husen
@@ -39,6 +38,6 @@
     <p>
       Fakultas : Teknik dan Ilmu Komputer
     </p>
-
+  </center>
   </body>
 </html>

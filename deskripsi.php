@@ -3,7 +3,7 @@
     <title>
      DESKRIPSI WEB TI FLOURA-2026
            </title>
-    <link rel="stylesheet" href="aset/css/style.css">
+   <link rel="stylesheet" href="aset/css/style.css?v=2">
 </head>
 <body>
     <h1 align = "center" >
@@ -18,8 +18,9 @@
     <td><a href = "tambahdata.php" > tambah data</a></td>
     </tr>
     </table>
-    <br><br>
+    <center>
     <h3>Deskripsi Diri</h3>
+    </center>
     <p>
         Saya adalah Floura Fauziyah Husen , seorang mahasiswa yang memiliki minat di bidang
         teknologi informasi, khususnya dalam desain dan pengembangan website.

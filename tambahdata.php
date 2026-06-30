@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Data Mahasiswa</title>
-      <link rel="stylesheet" href="aset/css/style.css">
+      <link rel="stylesheet" href="aset/css/style.css?v=2">
 </head>
 <body>
     <h1 align = "center" >

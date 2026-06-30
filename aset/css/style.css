@@ -1,19 +1,19 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f4f7fc;
+    background: linear-gradient(135deg, #ffe4ec, #ffd6e7, #fff0f5);
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
-h1, h2{
-    color: #6c63ff;
+h1, h2 ,h3{
+    color: #f671bc;
     text-align: center;
 }
 
 h2 {
     text-align: center;
-    color: #5f5af0;
+    color: #f671bc;
 }
 
 .form-mahasiswa {
@@ -33,7 +33,7 @@ h2 {
     background: #ffffff;
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 15px rgba(180, 41, 41, 0.1);
 }
 
 .navbar{
@@ -135,4 +135,23 @@ table img{
     border-radius: 15px;
     overflow: hidden;
 }
+table {
+    margin: 20px auto;
+}
 
+table td {
+    text-align: center;
+    min-width: 170px;
+}
+
+table td a {
+    display: block;
+    text-decoration: none;
+    color:  #ff69b4;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table td a:hover {
+    color: #ff69b4;
+}
